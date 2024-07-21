@@ -1,0 +1,522 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Uptask - CRUD",
+    "collectionId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+    "dateExported": "2024-07-18T02:59:03.470Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d50f86de-362e-4ebe-98f8-2fd2dde0d148",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROJECT - Create Project",
+            "url": "http://localhost:4000/api/projects",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-06-16T14:37:34.520Z",
+            "modified": "2024-07-07T12:35:42.559Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"projectName\": \"Poyecto 2\",\n  \"clientName\": \"Banco Itau\",\n  \"description\": \"App de consulta para clientes\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGE4OTVjODRmYjUyMmI0NDE4YTdhZSIsImlhdCI6MTcyMDM1NTY1NiwiZXhwIjoxNzM1OTA3NjU2fQ.Ds0b6TDrSfwoobrbvgjZiwMgSjoO5MamtpqZaBGXF_M"
+            }
+        },
+        {
+            "_id": "8a79fac6-78ca-4c5a-9bb6-55202c401228",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROJECT - Get All Projects",
+            "url": "http://localhost:4000/api/projects",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-06-16T14:25:37.207Z",
+            "modified": "2024-07-07T18:58:11.854Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDM3ODQ0MywiZXhwIjoxNzM1OTMwNDQzfQ.7hmPlzRbunDAiq9VLMLsVR_Ho3fj5zN3ALQ3SJY7arM"
+            }
+        },
+        {
+            "_id": "a800323e-ebac-49bd-938a-a271eb5b0d77",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROJECT - Project by Id",
+            "url": "http://localhost:4000/api/projects/668a8b3f84fb522b4418a7d8",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-06-16T16:26:38.089Z",
+            "modified": "2024-07-07T13:01:23.516Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDM1NzIxMCwiZXhwIjoxNzM1OTA5MjEwfQ.gLFgJGvl8_8Fo-d5pmQDjHoYydw28dPZk8Y6mSdj9qY"
+            }
+        },
+        {
+            "_id": "a140d5ee-1d31-4749-9c46-cf50c2568086",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROJECT - Update Project",
+            "url": "http://localhost:4000/api/projects/6695dde05f86bb3dafdbc27f",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-06-16T16:46:51.329Z",
+            "modified": "2024-07-16T02:43:15.908Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"projectName\": \"Ecommerce\",\n  \"clientName\": \"Banco Familiar\",\n  \"description\": \"App Ecommerce con Next y Shopify\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2OGE4OTVjODRmYjUyMmI0NDE4YTdhZSIsImlhdCI6MTcyMTA5Nzc1MiwiZXhwIjoxNzM2NjQ5NzUyfQ.6ywl0Qbp6yKOKK3PZpCSBhwLd1RzbBAfzi65AkGvptQ"
+            }
+        },
+        {
+            "_id": "ac534f54-0c96-43e5-a948-dbd3609848bc",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROJECT - Delete Project",
+            "url": "http://localhost:4000/api/projects/6695debb5f86bb3dafdbc2e6",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-06-16T17:04:15.968Z",
+            "modified": "2024-07-16T02:45:50.919Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMTA5NzkzMSwiZXhwIjoxNzM2NjQ5OTMxfQ.RXXvpgHDQ8YRLeMExOC9_B1hu9vyF8KCok0GEjGbNYE"
+            }
+        },
+        {
+            "_id": "db53a86c-f8af-4fad-801c-5a74371b6f5a",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Create Task",
+            "url": "http://localhost:4000/api/projects/6670b71f10f1759e0c28aa57/tasks",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-17T13:47:31.500Z",
+            "modified": "2024-06-17T22:22:58.790Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Definir framework Backend\",\n  \"description\": \"Buscar el framework Backend ideal para este proyecto\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4f7522b0-b51b-41f4-a40b-9bb15cae872c",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Get Tasks",
+            "url": "http://localhost:4000/api/projects/6670b71f10f1759e0c28aa57/tasks/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-17T16:01:59.817Z",
+            "modified": "2024-06-17T22:27:37.311Z",
+            "headers": []
+        },
+        {
+            "_id": "fb34ef31-7a88-473b-a4f0-12ff32329f29",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Update Task",
+            "url": "http://localhost:4000/api/projects/6670b71f10f1759e0c28aa57/tasks/6670b8eb1576481955b37836",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-06-17T16:40:48.580Z",
+            "modified": "2024-06-18T02:12:47.416Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Actualizado!!!\",\n  \"description\":\"Actualizado!!!\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "97b832b0-d4fb-4b0a-86fd-d5f318f0fb5c",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Get Task by Id",
+            "url": "http://localhost:4000/api/projects/66900705cc56447bacf2a237/tasks/66915a9538f0f181b91fce09",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-06-18T02:08:58.860Z",
+            "modified": "2024-07-13T01:43:20.133Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDczNTE5OSwiZXhwIjoxNzM2Mjg3MTk5fQ.jJRfXO6pvwgQlEuRtoxbmySMQ2kSSOoWx2B7hk_jPhE"
+            }
+        },
+        {
+            "_id": "6b03571d-e38d-44db-8c9e-2a6af8f8a4ba",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Update Status Task",
+            "url": "http://localhost:4000/api/projects/6670b71f10f1759e0c28aa57/tasks/6670b8ec1576481955b3784a/status",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-06-17T21:43:39.091Z",
+            "modified": "2024-06-18T02:00:38.093Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"status\":\"onHold\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0583cdec-99e6-4685-9ed5-cc2e98c73983",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TASK - Delete Task",
+            "url": "http://localhost:4000/api/projects/6670ec02fc74dff3762d2389/tasks/6670b8eb1576481955b37836",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-06-18T01:21:33.269Z",
+            "modified": "2024-06-18T02:15:12.472Z",
+            "headers": []
+        },
+        {
+            "_id": "1c01324a-0ea9-4618-a594-4d495bf7f879",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Create Account",
+            "url": "http://localhost:4000/api/auth/create-account",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-06-26T00:35:36.372Z",
+            "modified": "2024-06-26T01:06:14.358Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Joss Rider\",\n  \"password\": \"12345678\",\n  \"password_confirmation\": \"12345678\",\n  \"email\": \"jossrider@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b8d134ac-8162-4cd1-8c39-2fde11ddc6f6",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Confirm Account ",
+            "url": "http://localhost:4000/api/auth/confirm-account",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-06-30T16:54:54.051Z",
+            "modified": "2024-07-07T10:11:35.548Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"token\": \"810735\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fafac71c-44ae-4e57-b0d2-fff8b78ca8bb",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Login",
+            "url": "http://localhost:4000/api/auth/login",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-06-30T17:29:10.542Z",
+            "modified": "2024-07-16T02:45:31.793Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"jossrider@gmail.com\",\n  \"password\":\"password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0b24909f-15ed-45f8-95ec-3016f084b190",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Request New Confirmation Code",
+            "url": "http://localhost:4000/api/auth/request-code",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-07-06T01:27:24.665Z",
+            "modified": "2024-07-06T01:30:42.136Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"jossrider@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "079d111d-3065-4fe3-9758-a969327e620a",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Forgot Password",
+            "url": "http://localhost:4000/api/auth/forgot-password",
+            "method": "POST",
+            "sortNum": 130000,
+            "created": "2024-07-06T17:12:22.539Z",
+            "modified": "2024-07-06T17:13:23.639Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"jossrider@gmail.com\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4648d42b-036c-4126-b0fc-dff606a3fa46",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Validate Token",
+            "url": "http://localhost:4000/api/auth/validate-token",
+            "method": "POST",
+            "sortNum": 140000,
+            "created": "2024-07-06T21:19:56.569Z",
+            "modified": "2024-07-06T22:28:50.714Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"token\": \"710703\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a01e0ef0-e763-4b36-8731-07cc93ae44a6",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Set new password with token",
+            "url": "http://localhost:4000/api/auth/update-password/799307",
+            "method": "POST",
+            "sortNum": 150000,
+            "created": "2024-07-06T21:41:44.547Z",
+            "modified": "2024-07-06T22:35:29.711Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"12345678\",\n  \"password_confirmation\": \"12345678\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bfae2bec-3cea-40f6-a70c-bc8e11cca8d4",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "AUTH - Get Authenticated User",
+            "url": "http://localhost:4000/api/auth/user",
+            "method": "GET",
+            "sortNum": 160000,
+            "created": "2024-07-07T20:32:51.365Z",
+            "modified": "2024-07-07T20:34:54.436Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDM4Mzk2MiwiZXhwIjoxNzM1OTM1OTYyfQ.6nJhGp-pLpbY607qX3CVmdExcXkTnUjsUSIj3VUpbTI"
+            }
+        },
+        {
+            "_id": "492eb433-4b0f-4c02-97a1-5bcf6d74553e",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TEAM - Find Member by Email",
+            "url": "http://localhost:4000/api/projects/668c98b055df73b75e40d5d4/team/find",
+            "method": "POST",
+            "sortNum": 170000,
+            "created": "2024-07-09T02:28:34.385Z",
+            "modified": "2024-07-10T00:07:22.356Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"jossrider@gmail.com\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDU3MDAzMSwiZXhwIjoxNzM2MTIyMDMxfQ.YAHbGqPFG9bX21KZtvJSTnmbfjgXyn04GULVc0WYr7g"
+            }
+        },
+        {
+            "_id": "a7fe9b70-b3c6-49bc-b3a9-4bc63bf4b6ea",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TEAM - Add Member by Id",
+            "url": "http://localhost:4000/api/projects/668c98b055df73b75e40d5d4/team",
+            "method": "POST",
+            "sortNum": 180000,
+            "created": "2024-07-10T00:02:21.126Z",
+            "modified": "2024-07-10T00:33:08.061Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": \"668962485d1e59a9fc17d7c0\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDU3MDAzMSwiZXhwIjoxNzM2MTIyMDMxfQ.YAHbGqPFG9bX21KZtvJSTnmbfjgXyn04GULVc0WYr7g"
+            }
+        },
+        {
+            "_id": "5cf493f5-e74d-4ff0-a013-44b70a73a5d0",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TEAM - Remove Member by Id",
+            "url": "http://localhost:4000/api/projects/66900705cc56447bacf2a237/team/668962485d1e59a9fc17d7c0",
+            "method": "DELETE",
+            "sortNum": 190000,
+            "created": "2024-07-10T00:32:31.267Z",
+            "modified": "2024-07-11T21:34:30.844Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDU3MDAzMSwiZXhwIjoxNzM2MTIyMDMxfQ.YAHbGqPFG9bX21KZtvJSTnmbfjgXyn04GULVc0WYr7g"
+            }
+        },
+        {
+            "_id": "5d5dc127-6124-4300-8c5c-aea38637f11e",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "TEAM - Get Project Team",
+            "url": "http://localhost:4000/api/projects/668c98b055df73b75e40d5d4/team",
+            "method": "GET",
+            "sortNum": 200000,
+            "created": "2024-07-10T00:52:24.072Z",
+            "modified": "2024-07-10T00:53:06.751Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDU3MDAzMSwiZXhwIjoxNzM2MTIyMDMxfQ.YAHbGqPFG9bX21KZtvJSTnmbfjgXyn04GULVc0WYr7g"
+            }
+        },
+        {
+            "_id": "f6f4f20b-c815-4277-b2de-838ec49e1c35",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "NOTE - Create Note",
+            "url": "http://localhost:4000/api/projects/66905d8447099d26c73fe670/tasks/6691e9a7e0bf0e4078403d9f/notes",
+            "method": "POST",
+            "sortNum": 210000,
+            "created": "2024-07-12T16:21:31.097Z",
+            "modified": "2024-07-13T02:43:18.238Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"Mundo Hola!!\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDgzNzgyOSwiZXhwIjoxNzM2Mzg5ODI5fQ.rOlHTPWbkxjegACa5K_ihOBsk2T7-Q-5SROmSloFMV4"
+            }
+        },
+        {
+            "_id": "570ca362-011a-45ef-a719-f03439d190d2",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "NOTE - Get Task Notes",
+            "url": "http://localhost:4000/api/projects/66905d8447099d26c73fe670/tasks/6691e9a7e0bf0e4078403d9f/notes",
+            "method": "GET",
+            "sortNum": 220000,
+            "created": "2024-07-13T01:36:20.742Z",
+            "modified": "2024-07-13T02:43:49.756Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDczNTE5OSwiZXhwIjoxNzM2Mjg3MTk5fQ.jJRfXO6pvwgQlEuRtoxbmySMQ2kSSOoWx2B7hk_jPhE"
+            }
+        },
+        {
+            "_id": "608aa745-4d92-42fc-8f20-dbe239b49d11",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "NOTE - Delete Note",
+            "url": "http://localhost:4000/api/projects/66905d8447099d26c73fe670/tasks/6691e9a7e0bf0e4078403d9f/notes/6691e9cbe0bf0e4078403df8",
+            "method": "DELETE",
+            "sortNum": 230000,
+            "created": "2024-07-13T02:24:45.776Z",
+            "modified": "2024-07-13T02:45:54.406Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDgzODY4MywiZXhwIjoxNzM2MzkwNjgzfQ.UJvV8UzHP4zoyriU1xTC7SQ5VOih5qn9DiZlnbDZuj8"
+            }
+        },
+        {
+            "_id": "9d123bf1-00ea-4f63-9220-655ab99e4fc3",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROFILE - Update Profile",
+            "url": "http://localhost:4000/api/auth/profile",
+            "method": "PUT",
+            "sortNum": 240000,
+            "created": "2024-07-14T16:05:52.391Z",
+            "modified": "2024-07-14T22:06:41.439Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"Joss Rider\",\n  \"email\":\"jossrider@gmail.com\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDgzODY4MywiZXhwIjoxNzM2MzkwNjgzfQ.UJvV8UzHP4zoyriU1xTC7SQ5VOih5qn9DiZlnbDZuj8"
+            }
+        },
+        {
+            "_id": "8adfb89b-38f2-43d6-a0ac-f954640c331e",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROFILE - Update Password",
+            "url": "http://localhost:4000/api/auth/update-password",
+            "method": "POST",
+            "sortNum": 250000,
+            "created": "2024-07-14T16:57:12.415Z",
+            "modified": "2024-07-14T17:27:30.148Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"current_password\":\"987654321\",\n  \"password\":\"123456789\",\n  \"password_confirmation\":\"123456789\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDgzODY4MywiZXhwIjoxNzM2MzkwNjgzfQ.UJvV8UzHP4zoyriU1xTC7SQ5VOih5qn9DiZlnbDZuj8"
+            }
+        },
+        {
+            "_id": "6f06af90-467a-4171-9d6d-bfed38663072",
+            "colId": "9cc6491a-d431-4a4c-a923-9b70ef76dff2",
+            "containerId": "",
+            "name": "PROFILE - Check Password",
+            "url": "http://localhost:4000/api/auth/check-password",
+            "method": "POST",
+            "sortNum": 260000,
+            "created": "2024-07-14T23:27:44.292Z",
+            "modified": "2024-07-14T23:28:39.934Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODk2MjQ4NWQxZTU5YTlmYzE3ZDdjMCIsImlhdCI6MTcyMDgzODY4MywiZXhwIjoxNzM2MzkwNjgzfQ.UJvV8UzHP4zoyriU1xTC7SQ5VOih5qn9DiZlnbDZuj8"
+            }
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "http://localhost:4000/api/"
+        }
+    },
+    "ref": "nnEINexI2klZ3rfLOLKRZFAeJ4E1TT7U24xYVrkCm79MFnk4C-CgSLwE4ZfxOqrUnYLagsEqkh3MzPRCaP2Blw"
+}
